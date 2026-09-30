@@ -13,7 +13,8 @@ Thanks for your visit and continued support!
 
 ---
 
-| 📊 GitHub Metrics & Activity | 🎬 Favorite Cinema & Tech Series |
+| 📊 GitHub Metrics & Activity | 🎬 Cinema, Vibes & Toolkit |
 | :--- | :--- |
-| <img src="metrics.base.svg" width="100%" alt="Base Metrics"/> | <img src="movies.svg?v=2" width="100%" alt="Movies Grid 3x2"/><br/><br/>
+| <img src="metrics.base.svg" width="100%" alt="Base Metrics"/> | <a href="https://paisali.my.id"><img src="movies.svg?v=3" width="100%" alt="Complete Right Column"/></a> |
+
 ---
