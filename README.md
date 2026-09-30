@@ -15,33 +15,26 @@ Thanks for your visit and continued support!
 
 <table>
   <tr>
-    <!-- KOLOM KIRI (3D Calendar, Languages, Stats) -->
-    <td width="55%" valign="top">
+    <td width="54%" valign="top">
       <img src="metrics.base.svg" alt="Base Metrics" width="100%" />
     </td>
-    
-    <!-- KOLOM KANAN (Achievements, Activity & Favorite Movies/Series) -->
-    <td width="45%" valign="top">
-      <img src="metrics.side.svg" alt="Achievements & Activities" width="100%" />
-      
-      <br/>
-      
-      <!-- FAVORITE MOVIES / SERIES SECTION -->
-      <div align="center">
+    <td width="46%" valign="top">
+      <img src="metrics.side.svg" alt="Side Metrics" width="100%" />
+      <div align="left">
         <h4>🎬 Favorite Movies & Series</h4>
-      </div>
-      
-      * 🍿 **Interstellar** *(Sci-Fi / Space Exploration)*
-      * 🕶️ **The Matrix** *(Sci-Fi / Cyberpunk)*
-      * 🤖 **Mr. Robot** *(Cybersecurity / Drama)*
-      * 🧠 **Inception** *(Mind-bending / Thriller)*
-      * 🕵️‍♂️ **Sherlock** *(Mystery / Crime)*
-      
-      <br/>
-      <div align="center">
-        <a href="https://paisali.my.id">
-          <img src="https://img.shields.io/badge/Visit_Portfolio-paisali.my.id-000000?style=for-the-badge&logo=vercel&logoColor=white" width="90%"/>
-        </a>
+        <ul>
+          <li>🍿 <b>Interstellar</b> <i>(Sci-Fi / Space Exploration)</i></li>
+          <li>🕶️ <b>The Matrix</b> <i>(Sci-Fi / Cyberpunk)</i></li>
+          <li>🤖 <b>Mr. Robot</b> <i>(Cybersecurity / Tech)</i></li>
+          <li>🧠 <b>Inception</b> <i>(Mind-bending / Thriller)</i></li>
+          <li>🕵️‍♂️ <b>Sherlock</b> <i>(Mystery / Deduction)</i></li>
+        </ul>
+        <br/>
+        <p align="center">
+          <a href="https://paisali.my.id">
+            <img src="https://img.shields.io/badge/Personal_Portfolio-paisali.my.id-000000?style=for-the-badge&logo=vercel&logoColor=white" width="95%"/>
+          </a>
+        </p>
       </div>
     </td>
   </tr>
