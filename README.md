@@ -1,8 +1,13 @@
 ### 💡 Want to know what I'm currently working on?
-
-Hi there! I am dedicated to crafting reliable multi-platform software, modern UI dashboards, and robust automated QA test suites.
-Currently, I focus on delivering end-to-end regression testing suites, managing multi-tenant deployment architectures with **GitLab CI/CD & Cloudflare**, building modern web applications deployed on **Vercel**, and expanding automated testing with **Playwright & Jest** alongside continuous security & performance benchmarking.
-Explore my live projects & status at **[paisali.my.id](https://paisali.my.id)** . Thanks for stopping by  !
+<p align="justify">
+Hi there! Founder &amp; Lead Engineer at @desktopalie — an independent tech initiative dedicated to crafting reliable multi-platform software, intuitive UI dashboards, and automated QA suites.
+</p>
+<p align="justify">
+Currently, I focus on delivering zero-defect web releases, architecting automated CI/CD deployment pipelines with GitLab &amp; Cloudflare, building responsive web apps with React &amp; Vite on Vercel, and maintaining comprehensive test suites using Playwright &amp; Jest.
+</p>
+<p align="justify">
+Discover my live showcase &amp; status at paisali.my.id. Thanks for stopping by!
+</p>
 
 ---
 
