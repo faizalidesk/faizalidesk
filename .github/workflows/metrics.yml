@@ -10,8 +10,8 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Metrik Utama (Kiri): Kalender 3D & Bahasa
-      - name: Main metrics (Left side)
+      # 1. KOLOM KIRI (Base Header, Activity, 3D Calendar, Languages, Starred Topics)
+      - name: Main metrics (Left column)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.base.svg
@@ -26,20 +26,20 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
-          # Bahasa yang sering digunakan
+          # Most Used Languages
           plugin_languages: yes
           plugin_languages_analysis_details: yes
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
           
-          # Starred Topics
+          # Starred Topics / Tech Stack Icons
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 15
 
-      # 2. Metrik Kolom Kanan: Achievements & Notable Contributions & Lines of Code
-      - name: Side metrics (Right side)
+      # 2. KOLOM KANAN (Achievements & Coding Lines Stats)
+      - name: Side metrics (Right column)
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.side.svg
@@ -48,18 +48,11 @@ jobs:
           base: ""
           config_footer: no
           
-          # GitHub Achievements & Badges
+          # GitHub Achievements
           plugin_achievements: yes
-          plugin_achievements_display: detailed
+          plugin_achievements_display: compact
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
-          
-          # Aktivitas & Recent Repositories
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_visibility: all
           
           # Lines of Code / Commit Metrics
           plugin_lines: yes
