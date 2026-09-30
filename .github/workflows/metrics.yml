@@ -10,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Metrik Utama (Kiri) - Tanpa Footer/Watermark
+      # 1. Metrik Utama (Kiri): Kalender 3D & Bahasa
       - name: Main metrics (Left side)
         uses: lowlighter/metrics@latest
         with:
@@ -20,7 +20,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
-          config_footer: no  # <-- MENGHILANGKAN WATERMARK DI GAMBAR
+          config_footer: no
           
           # Isometrik 3D Calendar
           plugin_isocalendar: yes
@@ -33,22 +33,34 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
           
-          # Starred Topics / Skill Icons
+          # Starred Topics
           plugin_topics: yes
           plugin_topics_mode: icons
-          plugin_topics_limit: 20
+          plugin_topics_limit: 15
 
-      # 2. Metrik Kebiasaan & Aktivitas (Habits) - Tanpa Footer/Watermark
-      - name: Habits & Streaks
+      # 2. Metrik Kolom Kanan: Achievements & Notable Contributions & Lines of Code
+      - name: Side metrics (Right side)
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.habits.svg
+          filename: metrics.side.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: faizalidesk
           base: ""
-          config_footer: no  # <-- MENGHILANGKAN WATERMARK DI GAMBAR
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          config_footer: no
+          
+          # GitHub Achievements & Badges
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          
+          # Aktivitas & Recent Repositories
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_visibility: all
+          
+          # Lines of Code / Commit Metrics
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
