@@ -1,76 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="570" viewBox="0 0 480 570" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="280" viewBox="0 0 480 280" fill="none">
   <style>
-    .title { font: 600 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; }
-    .subtitle { font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
-    .movie-title { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
-    .rating { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0883e; }
-    .desc { font: 400 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
-    .quote { font: italic 400 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #6e7681; }
-    .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1px; rx: 6px; }
-    .pill-bg { fill: #21262d; rx: 4px; }
-    .pill-text { font: 500 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .header-title { font: 600 13px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #58a6ff; }
+    .header-sub { font: 400 10.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .movie-title { font: 600 11.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .genre { font: 400 9.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .rating { font: 600 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0883e; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .badge { fill: #21262d; rx: 3px; }
+    .tag-movie { font: 500 8.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffa657; }
+    .tag-series { font: 500 8.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7ee787; }
   </style>
 
-  <!-- Header Section -->
-  <g transform="translate(15, 20)">
+  <!-- HEADER SECTION -->
+  <g transform="translate(10, 15)">
     <path d="M4 2.5A2.5 2.5 0 0 1 6.5 0h11A2.5 2.5 0 0 1 20 2.5v15a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 17.5v-15zM6.5 1.5a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1zm3 0v1h2v-1h-2zm3 0v1h2v-1h-2zm3 0v1h2a1 1 0 0 0-1-1h-1z" fill="#58a6ff"/>
-    <text x="24" y="14" class="title">Cinema &amp; Tech Favorites</text>
-    <text x="24" y="30" class="subtitle">Curated masterpieces &amp; cyberpunk tech series</text>
+    <text x="24" y="13" class="header-title">Favorite Cinema &amp; Tech Series</text>
+    <text x="24" y="27" class="header-sub">Curated sci-fi &amp; psychological masterpieces</text>
   </g>
 
-  <!-- CARD 1: MR. ROBOT -->
-  <g transform="translate(15, 65)">
-    <rect width="450" height="82" class="card-bg"/>
-    <text x="16" y="24" class="movie-title">🤖 Mr. Robot</text>
-    <rect x="115" y="12" width="55" height="16" class="pill-bg"/>
-    <text x="122" y="24" class="rating">★ 8.6/10</text>
-    <text x="16" y="44" class="desc">Cybersecurity • Psychological Thriller • Society</text>
-    <text x="16" y="64" class="quote">"Control is an illusion. We are all living in a simulation."</text>
+  <!-- ================= BARIS ATAS (3 KOTAK) ================= -->
+  <!-- KOTAK 1: MR. ROBOT -->
+  <g transform="translate(10, 52)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">🤖 Mr. Robot</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 8.6</text>
+    <text x="10" y="42" class="genre">Cybersecurity</text>
+    <text x="10" y="56" class="genre">Psychology • Tech</text>
+    <rect x="10" y="72" width="46" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-series">TV Series</text>
   </g>
 
-  <!-- CARD 2: INTERSTELLAR -->
-  <g transform="translate(15, 160)">
-    <rect width="450" height="82" class="card-bg"/>
-    <text x="16" y="24" class="movie-title">🚀 Interstellar</text>
-    <rect x="120" y="12" width="55" height="16" class="pill-bg"/>
-    <text x="127" y="24" class="rating">★ 8.7/10</text>
-    <text x="16" y="44" class="desc">Astrophysics • Deep Space Exploration • Nolan</text>
-    <text x="16" y="64" class="quote">"Mankind was born on Earth, it was never meant to die here."</text>
+  <!-- KOTAK 2: INTERSTELLAR -->
+  <g transform="translate(166, 52)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">🚀 Interstellar</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 8.7</text>
+    <text x="10" y="42" class="genre">Astrophysics</text>
+    <text x="10" y="56" class="genre">Deep Space • Nolan</text>
+    <rect x="10" y="72" width="38" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-movie">Movie</text>
   </g>
 
-  <!-- CARD 3: THE MATRIX -->
-  <g transform="translate(15, 255)">
-    <rect width="450" height="82" class="card-bg"/>
-    <text x="16" y="24" class="movie-title">🕶️ The Matrix</text>
-    <rect x="120" y="12" width="55" height="16" class="pill-bg"/>
-    <text x="127" y="24" class="rating">★ 8.7/10</text>
-    <text x="16" y="44" class="desc">Cyberpunk • Simulation Theory • Artificial Intelligence</text>
-    <text x="16" y="64" class="quote">"No one can be told what the Matrix is. You have to see it."</text>
+  <!-- KOTAK 3: THE MATRIX -->
+  <g transform="translate(322, 52)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">🕶️ The Matrix</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 8.7</text>
+    <text x="10" y="42" class="genre">Cyberpunk</text>
+    <text x="10" y="56" class="genre">Simulation • AI</text>
+    <rect x="10" y="72" width="38" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-movie">Movie</text>
   </g>
 
-  <!-- CARD 4: INCEPTION -->
-  <g transform="translate(15, 350)">
-    <rect width="450" height="82" class="card-bg"/>
-    <text x="16" y="24" class="movie-title">🧠 Inception</text>
-    <rect x="110" y="12" width="55" height="16" class="pill-bg"/>
-    <text x="117" y="24" class="rating">★ 8.8/10</text>
-    <text x="16" y="44" class="desc">Subconscious Heist • Mind-Bending Reality • Nolan</text>
-    <text x="16" y="64" class="quote">"An idea is like a virus. Resilient. Highly contagious."</text>
+  <!-- ================= BARIS BAWAH (3 KOTAK) ================= -->
+  <!-- KOTAK 4: INCEPTION -->
+  <g transform="translate(10, 160)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">🧠 Inception</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 8.8</text>
+    <text x="10" y="42" class="genre">Mind-Bending</text>
+    <text x="10" y="56" class="genre">Dream Heist • Nolan</text>
+    <rect x="10" y="72" width="38" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-movie">Movie</text>
   </g>
 
-  <!-- CARD 5: SHERLOCK -->
-  <g transform="translate(15, 445)">
-    <rect width="450" height="82" class="card-bg"/>
-    <text x="16" y="24" class="movie-title">🕵️‍♂️ Sherlock</text>
-    <rect x="115" y="12" width="55" height="16" class="pill-bg"/>
-    <text x="122" y="24" class="rating">★ 9.1/10</text>
-    <text x="16" y="44" class="desc">Deductive Reasoning • Forensic Crime • Mystery</text>
-    <text x="16" y="64" class="quote">"The game is on. Listen to the quiet observations."</text>
+  <!-- KOTAK 5: SHERLOCK -->
+  <g transform="translate(166, 160)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">🕵️‍♂️ Sherlock</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 9.1</text>
+    <text x="10" y="42" class="genre">Deduction</text>
+    <text x="10" y="56" class="genre">Forensic Crime • BBC</text>
+    <rect x="10" y="72" width="46" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-series">TV Series</text>
   </g>
 
-  <!-- Footer Link -->
-  <g transform="translate(15, 545)">
-    <rect width="450" height="20" class="pill-bg"/>
-    <text x="225" y="14" class="pill-text" text-anchor="middle">Personal Portfolio ➔ paisali.my.id</text>
+  <!-- KOTAK 6: OPPENHEIMER -->
+  <g transform="translate(322, 160)">
+    <rect width="148" height="98" class="card"/>
+    <text x="10" y="22" class="movie-title">⚛️ Oppenheimer</text>
+    <rect x="94" y="11" width="44" height="14" class="badge"/>
+    <text x="98" y="22" class="rating">★ 8.9</text>
+    <text x="10" y="42" class="genre">Quantum Physics</text>
+    <text x="10" y="56" class="genre">History • Nolan</text>
+    <rect x="10" y="72" width="38" height="15" class="badge"/>
+    <text x="14" y="83" class="tag-movie">Movie</text>
   </g>
 </svg>
