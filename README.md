@@ -15,6 +15,6 @@ Thanks for your visit and continued support!
 
 | 📊 GitHub Metrics & Activity | 🎬 Cinema & Series Favorites |
 | :--- | :--- |
-| <img src="metrics.base.svg" width="100%" alt="Base Metrics"/> | <a href="https://paisali.my.id"><img src="movies.svg" width="100%" alt="Movies & Series"/></a> |
+| <img src="metrics.base.svg" width="100%" alt="Base Metrics"/> | <a href="https://paisali.my.id"><img src="movies.svg" width="100%" alt="Movies 3x2 Grid"/></a><br/><br/>[![Portfolio](https://img.shields.io/badge/PERSONAL_PORTFOLIO-PAISALI.MY.ID-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://paisali.my.id) |
 
 ---
