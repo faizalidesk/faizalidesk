@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Update otomatis setiap 12 jam
   schedule: [{cron: "0 */12 * * *"}]
-  # Memungkinkan klik tombol "Run Workflow" manual
   workflow_dispatch:
   push: {branches: ["main"]}
 
@@ -12,7 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      # 1. Metrik Utama (Kiri): Kalender 3D Isometrik & Bahasa
+      # 1. Metrik Utama (Kiri) - Tanpa Footer/Watermark
       - name: Main metrics (Left side)
         uses: lowlighter/metrics@latest
         with:
@@ -22,6 +20,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Jakarta
+          config_footer: no  # <-- MENGHILANGKAN WATERMARK DI GAMBAR
           
           # Isometrik 3D Calendar
           plugin_isocalendar: yes
@@ -39,7 +38,7 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_limit: 20
 
-      # 2. Metrik Kebiasaan & Aktivitas (Habits)
+      # 2. Metrik Kebiasaan & Aktivitas (Habits) - Tanpa Footer/Watermark
       - name: Habits & Streaks
         uses: lowlighter/metrics@latest
         with:
@@ -47,6 +46,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: faizalidesk
           base: ""
+          config_footer: no  # <-- MENGHILANGKAN WATERMARK DI GAMBAR
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
