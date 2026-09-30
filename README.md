@@ -23,7 +23,3 @@ Thanks for your visit and continued support!
     </td>
   </tr>
 </table>
-
-<div align="center">
-  <sub>✨ Designed & Maintained by <b>Faiz Ali</b> • Personal Site: <a href="https://paisali.my.id">paisali.my.id</a></sub>
-</div>
