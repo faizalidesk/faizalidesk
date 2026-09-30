@@ -1,6 +1,6 @@
-### 💡 Want to know what I'm currently working on?
+### 
 <p align="justify">
-Hi there! Founder &amp; Lead Engineer at @desktopalie — an independent tech initiative dedicated to crafting reliable multi-platform software, intuitive UI dashboards, and automated QA suites.
+Hi there! at @desktopalie — an independent tech initiative dedicated to crafting reliable multi-platform software, intuitive UI dashboards, and automated QA suites.
 </p>
 <p align="justify">
 Currently, I focus on delivering zero-defect web releases, architecting automated CI/CD deployment pipelines with GitLab &amp; Cloudflare, building responsive web apps with React &amp; Vite on Vercel, and maintaining comprehensive test suites using Playwright &amp; Jest.
