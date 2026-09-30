@@ -25,5 +25,5 @@ Thanks for your visit and continued support!
 </table>
 
 <div align="center">
-  <sub>⚡ Generated automatically with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> • Personal Site: <a href="https://paisali.my.id">paisali.my.id</a></sub>
+  <sub>✨ Designed & Maintained by <b>Faiz Ali</b> • Personal Site: <a href="https://paisali.my.id">paisali.my.id</a></sub>
 </div>
