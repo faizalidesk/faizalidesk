@@ -1,20 +1,26 @@
-Want to know what I'm currently working on?
-Checkout my active projects & testing repositories!
+### 💡 Want to know what I'm currently working on?
 
-PS: Crafting reliable multi-platform software, modern UI dashboards, and automated QA suites.
-
-  ☑️ Platform v3.9.0 & v3.9.1 regression testing suite & purchase flows
-  ☑️ Multi-tenant deployment architecture with GitLab CI/CD & Cloudflare
-  ☑️ Modern Web Portfolio with Vercel & Supabase integration (paisali.my.id)
-  🔲 Automated end-to-end testing with Playwright & Jest
-  🔲 Continuous security & performance audit benchmarks
-
-Thanks for your visit and continued support!
+Hi there! I am dedicated to crafting reliable multi-platform software, modern UI dashboards, and robust automated QA test suites.
+Currently, I focus on delivering end-to-end regression testing suites, managing multi-tenant deployment architectures with **GitLab CI/CD & Cloudflare**, building modern web applications deployed on **Vercel**, and expanding automated testing with **Playwright & Jest** alongside continuous security & performance benchmarking.
+Explore my live projects & status at **[paisali.my.id](https://paisali.my.id)**. Thanks for stopping by!
 
 ---
 
-| 📊 GitHub Metrics & Activity | 🎬 Cinema, Vibes & Toolkit |
-| :--- | :--- |
-| <img src="metrics.base.svg" width="100%" alt="Base Metrics"/> | <a href="https://paisali.my.id"><img src="movies.svg?v=3" width="100%" alt="Complete Right Column"/></a> |
+<table width="100%" border="0">
+  <tr>
+    <th width="50%" align="center">📊 GitHub Metrics &amp; Activity</th>
+    <th width="50%" align="center">🎬 Cinema, Vibes &amp; Toolkit</th>
+  </tr>
+  <tr valign="top">
+    <td width="50%" align="center">
+      <img src="metrics.base.svg" width="100%" alt="Base Metrics" />
+    </td>
+    <td width="50%" align="center">
+      <a href="https://paisali.my.id">
+        <img src="movies.svg" width="100%" alt="Cinema, Vibes & Toolkit" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
