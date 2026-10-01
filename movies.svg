@@ -4,9 +4,9 @@
     .movie-title { font: 600 11px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d1d9; }
     .genre { font: 400 9px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8b949e; }
     .rating { font: 600 9.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f0883e; }
-    .card { fill: #161b22; stroke: #30363d; stroke-width: 1px; rx: 6px; }
-    .card-sub { fill: #0d1117; stroke: #21262d; stroke-width: 1px; rx: 5px; }
-    .badge { fill: #21262d; rx: 3px; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1px; rx: 8px; }
+    .card-sub { fill: #0d1117; stroke: #21262d; stroke-width: 1px; rx: 6px; }
+    .badge { fill: #21262d; rx: 4px; }
     .tag-movie { font: 500 8.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffa657; }
     .tag-series { font: 500 8.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #7ee787; }
     .tag-anime { font: 500 8.5px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #d2a8ff; }
@@ -191,17 +191,15 @@
 
   <!-- ================= 5. DESA KONOHA & CHIBI NARUTO VS SASUKE ================= -->
   <g transform="translate(5, 619)">
-    <!-- Container Card -->
     <rect width="470" height="175" class="card" stroke="#f0883e" stroke-width="1.2"/>
     
-    <!-- ================= LATAR DESA KONOHA & HOKAGE ROCK ================= -->
     <!-- Full Moon 🌕 -->
     <circle cx="410" cy="45" r="22" fill="#fff2b2" opacity="0.85"/>
     <circle cx="410" cy="45" r="28" fill="#ffa657" opacity="0.15">
       <animate attributeName="r" values="26;30;26" dur="3s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Siluet Tebing Patung Hokage (Hokage Rock Mountains) -->
+    <!-- Siluet Tebing Hokage -->
     <path d="M0 135 L0 75 Q40 50 90 70 Q140 45 190 65 Q250 40 310 65 Q380 50 440 75 L470 85 L470 135 Z" fill="#0d1117" opacity="0.9"/>
     <path d="M60 85 Q75 60 90 85 M160 80 Q175 55 190 80 M270 78 Q285 52 300 78" stroke="#21262d" stroke-width="2" fill="none" opacity="0.6"/>
 
@@ -211,7 +209,7 @@
     <polygon points="320,112 355,90 390,112" fill="#1b2434"/>
     <polygon points="410,115 440,98 470,115" fill="#1b2434"/>
 
-    <!-- Daun Konoha Berterbangan (Animated Leaves) 🍃 -->
+    <!-- Daun Konoha Berterbangan 🍃 -->
     <g fill="#7ee787" opacity="0.8">
       <path d="M440 35 Q450 20 460 35 Q450 50 440 35 Z">
         <animate attributeName="transform" type="translate" values="50 -30; -490 100" dur="4.2s" repeatCount="indefinite"/>
@@ -235,7 +233,7 @@
     <line x1="15" y1="135" x2="455" y2="135" stroke="#30363d" stroke-width="1.5"/>
     <line x1="15" y1="138" x2="455" y2="138" stroke="#f0883e" stroke-width="0.8" opacity="0.6"/>
 
-    <!-- Scrolling Ground Dashes -->
+    <!-- Scrolling Dust Dashes -->
     <g stroke="#ffa657" stroke-width="2" stroke-linecap="round" opacity="0.65">
       <line x1="0" y1="148" x2="25" y2="148">
         <animate attributeName="transform" type="translate" values="470 0; -60 0" dur="0.75s" repeatCount="indefinite"/>
@@ -253,21 +251,17 @@
 
     <!-- ================= 🍥 CHIBI NARUTO UZUMAKI ================= -->
     <g transform="translate(130, 52)">
-      <!-- Smooth Ninja Run Bounce -->
       <g>
         <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="0.32s" repeatCount="indefinite"/>
 
-        <!-- Naruto Wind Speedlines -->
         <line x1="-12" y1="36" x2="-28" y2="36" stroke="#ffa657" stroke-width="1.2" stroke-linecap="round">
           <animate attributeName="opacity" values="0.1;0.9;0.1" dur="0.32s" repeatCount="indefinite"/>
         </line>
 
-        <!-- Orange & Black Shinobi Tracksuit -->
         <path d="M10 38 Q24 28 38 38 L42 64 Q24 68 6 64 Z" fill="#ff7b25" stroke="#d35400" stroke-width="1.2"/>
         <path d="M10 38 Q24 28 38 38 L36 44 Q24 38 12 44 Z" fill="#1f6feb"/>
         <line x1="24" y1="36" x2="24" y2="66" stroke="#ffffff" stroke-width="1.2"/>
 
-        <!-- Running Legs Cycling -->
         <g>
           <animateTransform attributeName="transform" type="rotate" values="-35 18 64; 35 18 64; -35 18 64" dur="0.32s" repeatCount="indefinite"/>
           <line x1="16" y1="64" x2="10" y2="78" stroke="#ff7b25" stroke-width="4.5" stroke-linecap="round"/>
@@ -279,35 +273,26 @@
           <ellipse cx="38" cy="79" rx="4" ry="2.5" fill="#1f6feb"/>
         </g>
 
-        <!-- Head & Face -->
         <circle cx="24" cy="20" r="16" fill="#ffe0bd"/>
-
-        <!-- Spiky Blonde Hair -->
         <polygon points="6,16 -2,4 10,8 16,-4 24,6 32,-6 38,8 48,2 42,18" fill="#f1c40f"/>
 
-        <!-- Konoha Blue Headband Metal Plate -->
-        <rect x="8" y="11" width="32" height="7" rx="1.5" fill="#1f6feb"/>
+        <rect x="8" y="11" width="32" height="7" rx="2" fill="#1f6feb"/>
         <rect x="18" y="12.5" width="12" height="4" rx="1" fill="#c0c6cc"/>
         <circle cx="24" cy="14.5" r="1" fill="#30363d"/>
 
-        <!-- Whiskers Marks -->
         <line x1="11" y1="21" x2="15" y2="20" stroke="#d35400" stroke-width="0.8"/>
         <line x1="11" y1="23" x2="15" y2="23" stroke="#d35400" stroke-width="0.8"/>
         <line x1="33" y1="21" x2="37" y2="20" stroke="#d35400" stroke-width="0.8"/>
         <line x1="33" y1="23" x2="37" y2="23" stroke="#d35400" stroke-width="0.8"/>
 
-        <!-- Eyes -->
         <ellipse cx="18" cy="20" rx="2.2" ry="3" fill="#1f6feb"/>
         <circle cx="17.5" cy="19" r="0.8" fill="#ffffff"/>
         <ellipse cx="30" cy="20" rx="2.2" ry="3" fill="#1f6feb"/>
         <circle cx="29.5" cy="19" r="0.8" fill="#ffffff"/>
 
-        <!-- Confident Smile -->
         <path d="M20 26 Q24 30 28 26" stroke="#30363d" stroke-width="1.2" fill="none" stroke-linecap="round"/>
 
-        <!-- Arms & Glowing Spiral Rasengan 🌀 -->
         <line x1="10" y1="42" x2="-2" y2="52" stroke="#ffe0bd" stroke-width="3" stroke-linecap="round"/>
-        <!-- Spinning Rasengan Orb -->
         <circle cx="-5" cy="54" r="7" fill="#58a6ff" opacity="0.85">
           <animate attributeName="r" values="6;8;6" dur="0.3s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.7;1;0.7" dur="0.3s" repeatCount="indefinite"/>
@@ -318,15 +303,12 @@
 
     <!-- ================= ⚡ CHIBI SASUKE UCHIHA ================= -->
     <g transform="translate(275, 52)">
-      <!-- Smooth Ninja Run Bounce -->
       <g>
         <animateTransform attributeName="transform" type="translate" values="0 -2; 0 2; 0 -2" dur="0.32s" repeatCount="indefinite"/>
 
-        <!-- Sasuke Dark Blue Shirt with High Collar -->
         <path d="M10 38 Q24 28 38 38 L42 64 Q24 68 6 64 Z" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
         <path d="M8 35 L12 44 L24 40 L36 44 L40 35 Z" fill="#f0f6fc" stroke="#c9d1d9" stroke-width="0.8"/>
 
-        <!-- Running Legs Cycling -->
         <g>
           <animateTransform attributeName="transform" type="rotate" values="35 18 64; -35 18 64; 35 18 64" dur="0.32s" repeatCount="indefinite"/>
           <line x1="16" y1="64" x2="10" y2="78" stroke="#f0f6fc" stroke-width="4.5" stroke-linecap="round"/>
@@ -338,29 +320,22 @@
           <ellipse cx="38" cy="79" rx="4" ry="2.5" fill="#161b22"/>
         </g>
 
-        <!-- Head & Face -->
         <circle cx="24" cy="20" r="16" fill="#ffe0bd"/>
 
-        <!-- Sasuke Spiky Jet-Black Hair & Bangs -->
         <path d="M6 18 Q-4 2 8 2 Q6 -6 18 0 Q26 -8 34 0 Q46 2 42 18 Q46 6 36 4 Q24 2 12 10 Z" fill="#1b2434"/>
         <polygon points="6,16 0,28 10,24" fill="#1b2434"/>
         <polygon points="42,16 48,28 38,24" fill="#1b2434"/>
 
-        <!-- Glowing Crimson Sharingan Eye -->
         <ellipse cx="18" cy="20" rx="2.3" ry="3" fill="#0d1117"/>
         <circle cx="18" cy="20" r="1.6" fill="#f85149">
           <animate attributeName="opacity" values="0.7;1;0.7" dur="1.2s" repeatCount="indefinite"/>
         </circle>
-        <!-- Normal Left Eye -->
         <ellipse cx="30" cy="20" rx="2.2" ry="3" fill="#0d1117"/>
         <circle cx="29.5" cy="19" r="0.8" fill="#ffffff"/>
 
-        <!-- Smirk -->
         <path d="M22 26 Q25 28 28 25" stroke="#30363d" stroke-width="1.2" fill="none" stroke-linecap="round"/>
 
-        <!-- Arms & Chidori Lightning Discharge ⚡ -->
         <line x1="38" y1="42" x2="52" y2="52" stroke="#ffe0bd" stroke-width="3" stroke-linecap="round"/>
-        <!-- Electric Bolts -->
         <g stroke="#d2a8ff" stroke-width="1.5" fill="none">
           <polyline points="50,46 56,42 60,48 66,42">
             <animate attributeName="opacity" values="0.2;1;0.2" dur="0.18s" repeatCount="indefinite"/>
